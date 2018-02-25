@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.karleinstein.iqtest.BlankFragment2">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GENIUS"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:layout_marginTop="30dp"
+        android:textSize="45dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/tvBeginner"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/tvIntro"
+        android:textColor="#000"
+        android:text="10% of people can complete"
+        android:layout_gravity="center"
+        />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="100dp"
+            android:src="@drawable/xmark"
+            android:background="@null"
+            android:id="@+id/lv1"
+            android:layout_marginRight="10dp"
+            android:layout_height="100dp" />
+        <ImageButton
+            android:id="@+id/lv2"
+            android:src="@drawable/xmark"
+            android:background="@null"
+            android:layout_marginRight="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <ImageButton
+            android:id="@+id/lv3"
+            android:src="@drawable/xmark"
+            android:background="@null"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/lv4"
+            android:src="@drawable/xmark"
+            android:background="@null"
+            android:layout_width="100dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="100dp" />
+        <ImageButton
+            android:id="@+id/lv5"
+            android:src="@drawable/xmark"
+            android:background="@null"
+            android:layout_marginRight="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <ImageButton
+            android:id="@+id/lv6"
+            android:src="@drawable/xmark"
+            android:background="@null"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/lv7"
+            android:src="@drawable/xmark"
+            android:background="@null"
+            android:layout_width="100dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="100dp" />
+        <ImageButton
+            android:id="@+id/lv8"
+            android:src="@drawable/xmark"
+            android:background="@null"
+            android:layout_marginRight="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <ImageButton
+            android:id="@+id/lv9"
+            android:src="@drawable/xmark"
+            android:background="@null"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+</LinearLayout>

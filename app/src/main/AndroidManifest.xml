@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.karleinstein.iqtest">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/trash"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ChooseLevel" />
+        <activity android:name=".beginner.Level4"/>
+        <activity android:name=".beginner.Level5"/>
+        <activity android:name=".beginner.Level6"/>
+        <activity android:name=".beginner.Level7"/>
+        <activity android:name=".beginner.Level9"/>
+        <activity android:name=".beginner.Level8"/>
+        <activity android:name=".Stats"/>
+        <activity android:name=".beginner.Level1"></activity>
+        <activity android:name=".Guide" />
+        <activity android:name=".beginner.Level2" />
+        <activity android:name=".beginner.Level3" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

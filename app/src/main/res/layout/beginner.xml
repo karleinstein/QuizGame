@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:id="@+id/viewPager"
+        android:layout_height="510dp">
+
+    </android.support.v4.view.ViewPager>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:textSize="20.5dp"
+        android:textColor="#000"
+        android:text="Your IQ:55"
+        android:layout_gravity="center"
+        android:id="@+id/tvYourIq"/>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3739982462015298/3713096459"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

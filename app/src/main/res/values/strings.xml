@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IQtest</string>
+    <string name="trash">Check</string>
+    <string name="c3beginner"></string>
+    <string name="therule">First this is a IQ Test game and questions i took from Best IQ Test by  bubble quiz games
+    Why i did it? i made it because i want to practice so credits belong to me and bubble quiz games.
+    Second about the rule : When you choose wrong answer you will be decreased 0.5 score if you choose true answer you get 2 score.
+    </string>
+
+</resources>
